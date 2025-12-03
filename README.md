@@ -7,7 +7,7 @@ To achivie this it uses an ESP-32 and a serverless Webapplication in AWS. The sy
 - [Requirements](#requirements)
 - [How to use](#how-to-use)
 - [Demonstration](#demonstration)
-
+- [Project Reflection & Technical Challenges](#project-reflection--technical-challenges)
 
 ## License
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
@@ -33,3 +33,19 @@ and **the web part** is described in:
 1. `follow the instruction in` :[flowerWatcher_amplify-repository](https://github.com/EddieKarlsen/flowerWatcher_amplify)
 
 2. `configure you're sensor as descirbed in`[humiditySensor-repository](https://github.com/EddieKarlsen/humiditySensor)
+
+## Project Reflection & Technical Challenges
+This project was developed within a focused timeframe (starting in the evening of Friday the 28th of November 2025  and finished for presentation on Wensday the 3:d of December in the afternoon), serving as a fast-paced learning experience.
+
+### Time Allocation Summary:
+
+| Area | Estimated Time Spent | Primary Challenges Encountered |
+| :--- | :--- | :--- |
+| **Frontend & Web Backend (Amplify/APIs)** | 70-80% | TypeScript and React state management, troubleshooting Cross-Origin Resource Sharing (CORS) issues between the API Gateway and the hosted frontend, and data serialization. |
+| **IoT Firmware & AWS Integration (ESP32)** | 20-30% | getting certificetse into firmware and calibrating the sensor|
+
+**Key Takeaways:**
+
+* Gained experience with TypeScript and React development patterns.
+* implemented a fully secure MQTT connection (TLS) from an embedded device (ESP32) to a serverless AWS backend.
+* Learned to debug and resolve CORS issues in a multi-service AWS environment.
