@@ -8,6 +8,7 @@ To achivie this it uses an ESP-32 and a serverless Webapplication in AWS. The sy
 - [How to use](#how-to-use)
 - [Demonstration](#demonstration)
 - [Project Reflection & Technical Challenges](#project-reflection--technical-challenges)
+- [showcase](#showcase)
 
 ## License
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
@@ -44,8 +45,20 @@ This project was developed within a focused timeframe (starting in the evening o
 | **Frontend & Web Backend (Amplify/APIs)** | 70-80% | TypeScript and React state management, troubleshooting Cross-Origin Resource Sharing (CORS) issues between the API Gateway and the hosted frontend, and data serialization. |
 | **IoT Firmware & AWS Integration (ESP32)** | 20-30% | getting certificetse into firmware and calibrating the sensor|
 
+
 **Key Takeaways:**
 
 * Gained experience with TypeScript and React development patterns.
 * implemented a fully secure MQTT connection (TLS) from an embedded device (ESP32) to a serverless AWS backend.
 * Learned to debug and resolve CORS issues in a multi-service AWS environment.
+## showcase
+
+![dynanoDB](assets\dynanoDB.png)
+### figure 2 
+the above image is to show the incoming sensorreadings to AWS dynamoDB
+![testMqttgateay](assets\testMqttgateay.png)
+### figure 3 
+the same can be seen in the AWS test MqttClient
+![showcase1](assets\showcase1.gif)
+### gif
+the gif showcases the GUI for montring and "creating" plants aswell showcaseing the weather feature which is gatherd from SMHI public API. Please note the gif don't show the loggin and signout features
