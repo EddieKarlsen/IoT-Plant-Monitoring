@@ -61,12 +61,12 @@ This project was developed within a focused timeframe (starting in the evening o
 * Learned to debug and resolve CORS issues in a multi-service AWS environment.
 ## showcase
 
-![dynanoDB](assets\dynanoDB.png)
+![dynanoDB](assets/dynanoDB.png)
 ### figure 2 
 the above image is to show the incoming sensorreadings to AWS dynamoDB
-![testMqttgateay](assets\testMqttgateay.png)
+![testMqttgateay](assets/testMqttgateay.png)
 ### figure 3 
 the same can be seen in the AWS test MqttClient
-![showcase1](assets\showcase1.gif)
+![showcase1](assets/showcase1.gif)
 ### gif
 the gif showcases the GUI for montring and "creating" plants aswell showcaseing the weather feature which is gatherd from SMHI public API. Please note the gif don't show the loggin and signout features
