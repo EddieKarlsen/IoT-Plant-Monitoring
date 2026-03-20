@@ -1,4 +1,8 @@
 # IoT-Plant-Monitoring
+![AWS](https://img.shields.io/badge/AWS-IoT%20Core-orange)
+![ESP32](https://img.shields.io/badge/ESP32-C-blue)
+![React](https://img.shields.io/badge/React-TypeScript-blue)
+
 This project aims to implement a complete soloution to remotley monitoring plants soilhumidity. 
 To achivie this it uses an ESP-32 and a serverless Webapplication in AWS. The system allows the user to vissulaize historical moisture readings and handles waterreminders through a discord webhook
 
@@ -14,11 +18,7 @@ To achivie this it uses an ESP-32 and a serverless Webapplication in AWS. The sy
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
-![AWS](https://img.shields.io/badge/AWS-IoT%20Core-orange)
-![ESP32](https://img.shields.io/badge/ESP32-C-blue)
-![React](https://img.shields.io/badge/React-TypeScript-blue)
-![Timeline](https://img.shields.io/badge/Built%20in-5%20days-brightgreen)
-![Security](https://img.shields.io/badge/Security-TLS%2FHTTPS-green)
+
 
 ## System Architecture
 this projekt aims to build the system described in the following image
