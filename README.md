@@ -2,6 +2,7 @@
 ![AWS](https://img.shields.io/badge/AWS-IoT%20Core-orange)
 ![ESP32](https://img.shields.io/badge/ESP32-C-blue)
 ![React](https://img.shields.io/badge/React-TypeScript-blue)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
 This project aims to implement a complete soloution to remotley monitoring plants soilhumidity. 
 To achivie this it uses an ESP-32 and a serverless Webapplication in AWS. The system allows the user to vissulaize historical moisture readings and handles waterreminders through a discord webhook
@@ -16,7 +17,7 @@ To achivie this it uses an ESP-32 and a serverless Webapplication in AWS. The sy
 
 ## License
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 
 
